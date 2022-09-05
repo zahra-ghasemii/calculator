@@ -7,19 +7,19 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-        background-color: #e3e0e0;
+        background-color: rgb(136, 239, 136);
     font-family: Arial, Helvetica, sans-serif;
 }
 .container{
     width: 100%;
     height: 100%;
-    background-color: #e3e0e0;
+    background-color: rgb(136, 239, 136);
 }
 .top-header{
     padding: 10px;
     display: flex;
     justify-content: space-between;
-    background-color: #e3e0e0;
+    background-color: rgb(136, 239, 136);
 }
 .top-header p{
     font-size: 10px;
@@ -28,7 +28,7 @@ body{
     padding: 20px 10px;
     display: flex;
     justify-content: space-between;
-    background-color: #e3e0e0;
+    background-color: rgb(136, 239, 136);
 }
 .burger .line{
     width: 25px;
@@ -46,20 +46,20 @@ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     display: flex;
     align-items: center;
 }
-.inputgroup input{
+.input-group input{
     padding: 30px 10px 15px 10px;
     border: none;
     width: 100%;
     text-align: right;
     font-size: 40px;
-    background-color: #e3e0e0;
+    background-color: rgb(136, 239, 136);
 }
 .modes{
     display: flex;
     flex-direction: row;
     align-items: center;
     flex-grow: 1;
-    background-color: #e3e0e0;
+    background-color: rgb(136, 239, 136);
 }
 .modes p{
     font-size: 12px;
@@ -94,7 +94,7 @@ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .secondoperations p{
   padding: 28.5px;
-    border:  1px solid #c6c3c3;
+    border:  1px solid rgb(136, 239, 136);
 }
 
 .secondoperations span{
@@ -102,10 +102,11 @@ margin-bottom: auto;
 margin-top: auto;
 }
 .numbers{
-    background-color: #fff;
+    background-color: rgb(88, 193, 88) !important;
 }
+
 .secondoperations p:hover{
-    background-color: rgb(164, 164, 164);
+    background-color:rgb(13, 99, 13);
 }
 
 .firstoperation{
@@ -117,21 +118,18 @@ margin-top: auto;
 .firstoperation p{
     padding: 15px;
     padding: 15px 0;
-    border:  1px solid #f6f4f4;
+    border:  1px solid rgb(136, 239, 136);
 }
 .History{
-    background-color: #e3e0e0;
+    background-color: rgb(136, 239, 136);
     width: 320px;
     height: 636px;
     float: right;
 }
-input{
-    border:1px solid rgb(180, 179, 179);
-    height: 84px;
-}
 .opColor{
-    background-color: rgb(232, 231, 231);
+    background-color: rgb(17, 133, 17);
     text-align: center;
+    border-radius: 20%;
 }
 
 .title{
@@ -173,12 +171,14 @@ input{
     height: 35px;
 padding-left: 7px;
 padding-top: 8px;
+border-radius: 20%;
 }
 .burger:hover{
-    background-color: rgb(212, 207, 207);  
+    background-color: rgb(17, 133, 17);  
+    
 }
 .window:hover{
-    background-color: rgb(170, 169, 169);
+    background-color: rgb(17, 133, 17);
 }
 .minimize{
     width: 33%;
@@ -186,14 +186,14 @@ padding-top: 8px;
     text-align: center;
 }
 .minimize:hover{
-    background-color: rgb(170, 169, 169);
+    background-color: rgb(17, 133, 17);
 }
 .navHistoryRes{
     display: flex;
     float: right;
     width: 40%;
     height: 20px;
-    background-color: #e3e0e0;
+    background-color: rgb(136, 239, 136);
 }
 .secondoperationRes{
     display: grid;
@@ -203,7 +203,6 @@ padding-top: 8px;
 }
 .secondoperationRes p{
     padding: 28.5px;
-      border:  1px solid #c6c3c3;
   }
   
   .secondoperationRes span{
@@ -211,10 +210,10 @@ padding-top: 8px;
   margin-top: auto;
   }
   .numbers{
-      background-color: #fff;
+      border-radius: 20% !important;
   }
   .secondoperationRes p:hover{
-      background-color: rgb(164, 164, 164);
+      background-color: rgb(11, 76, 11);
   }
   .restart{
     margin-left: 310px;
@@ -224,7 +223,7 @@ padding-top: 8px;
   padding-top: 2px;
   }
   .restart:hover{
-    background-color: rgb(164, 164, 164);
+    background-color: rgb(17, 133, 17);
   }
 
 @media only screen and (max-width: 500px) {
